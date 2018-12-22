@@ -18,4 +18,4 @@ client.on("guildMemberRemove", member => {
 
 }).catch(console.error)
 })
-client.login('NTIzODE1MjIxOTI4Nzg3OTY5.Dv_XvA.-P-2Ir-9jfdMQdbSNHUTRPSe7aM');
+client.login("NTIzODE1MjIxOTI4Nzg3OTY5.Dv_XvA.-P-2Ir-9jfdMQdbSNHUTRPSe7aM");
