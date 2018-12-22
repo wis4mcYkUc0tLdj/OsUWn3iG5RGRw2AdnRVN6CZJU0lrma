@@ -7,14 +7,14 @@ client.on('ready', () => {
 
 client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`**CAN YOU JOIN PLEASE? :heart_eyes: :hearts: https://discord.gg/ExPYXcN**`)
+  return channel.send('**CAN YOU JOIN PLEASE? :heart_eyes: :hearts: https://discord.gg/ExPYXcN :relaxed:**')
 
 }).catch(console.error)
 })
 
 client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`**CAN YOU JOIN PLEASE? :heart_eyes: :hearts: https://discord.gg/ExPYXc**`)
+  return channel.send('**CAN YOU JOIN PLEASE? :heart_eyes: :hearts: https://discord.gg/ExPYXcN :relaxed:**')
 
 }).catch(console.error)
 })
